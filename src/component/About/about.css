@@ -1,0 +1,51 @@
+.about{
+
+    position:relative;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    padding: 12% 8%;
+    gap:5rem;
+
+}
+
+.about-img img
+{
+    width:300px;
+    border-radius:50%;
+    box-shadow: 0 0 25px cyan,
+                0 0 25px cyan; 
+                z-index: -1;       
+
+} 
+
+.about-content h2{
+    text-align:left;
+    font-size:60px;
+    color:white;
+    
+    
+
+}
+.about-content h2 span{
+    color:cyan;
+}
+.about-content h3{
+    font-size:35px;
+    color:white;
+
+}
+.about-content h3 span{
+    color:cyan;
+}
+.about-content p{
+    color:white;
+    font-size:15px;
+    margin:2em 03 3rem ;
+
+}
+
+
+
+
+

@@ -1,0 +1,91 @@
+
+
+
+
+
+#service{
+    color:aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+
+}
+.serviceTitle{
+    text-align:center;
+    padding-bottom: 70px;
+    font-size:60px;
+}
+.serviceTitle span{
+    color:cyan;
+}
+.serviceBars{
+    padding: 90px;
+}
+
+.serviceBar{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+grid-gap:40px;
+margin-top:50px;
+}
+.serviceBar div{
+    background:transparent;
+    padding:40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-radius: 20px;
+    border-right: 10px;
+    transition:background(0.5s,transform 0.5s);
+    box-shadow:1px 1px 20px #012290f7,
+               1px 1px 40px #0053b8f7;
+}
+.serviceBar div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    
+} 
+.serviceBar div i{
+    color:cyan;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+.serviceBar div p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.service-list div a{
+    padding-bottom: 50px;
+    text-decoration:none;
+    color:#000000;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.read{
+    display: inline-block;
+    padding: 14px 28px;
+    background: cyan;
+    border-radius: 40px;
+    font-size: 16px;
+    color:#081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 1;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow:  0 0 5px cyan,
+                 0 0 25px cyan;
+      
+}
+.read:hover{
+    box-shadow: 0 0 5px cyan,
+        0 0 25px cyan,0 0 50px cyan,
+        0 0 100px cyan,0 0 200px cyan;
+}
+.serviceBar div:hover{
+    transform: translateY(-10px)
+}
